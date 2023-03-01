@@ -729,13 +729,14 @@
               eating well today. You can cancel or pause anytime. And the first
               meal is on us!
             </p>
-            <form id="form-subscribe-element">
+            <form id="form-subscribe-element" name="sign-up" netlify>
               <div>
                 <label for="user-name">Name</label>
                 <input
                   type="text"
                   id="user-name"
                   placeholder="John Doe"
+                  name="full-name"
                   required
                 />
               </div>
@@ -745,6 +746,7 @@
                   type="email"
                   id="user-email"
                   placeholder="john@doe.com"
+                  name="email"
                   required
                 />
               </div>
